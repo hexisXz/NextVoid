@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# autostart 
+exec ~/.config/herbstluftwm/scripts/programs &
+
+# keybinds
+exec ~/.config/herbstluftwm/scripts/keybinds &
+
+# themes
+exec ~/.config/herbstluftwm/scripts/themes &

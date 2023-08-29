@@ -1,0 +1,23 @@
+#!/usr/bin/env bash 
+
+# sound
+pipewire &
+
+# bar 
+polybar &
+
+# rounding and transparent windows
+picom &
+
+# set wallpaper 
+xwallpaper --zoom ~/.config/wallpapers/star-girl.png &
+
+# keep the screen on
+xset -dpms &
+
+xset s noblank &
+
+xset s off &
+
+# set layout 
+hc set_layout 1 vertical grid &
