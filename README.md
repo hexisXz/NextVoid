@@ -8,3 +8,5 @@ NextVoid is a void linux rice that is fast and sorta minimal
 ``` sh
 sh <(curl -v -L https://raw.githubusercontent.com/hexisXz/NextVoid/main/install.sh)
 ```
+
+yes i am a fan of curl and one line commands...
